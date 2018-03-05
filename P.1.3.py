@@ -87,6 +87,3 @@ def draw_function(func, min_x, max_x, n_x, n_y, a_type=0, point_char="*", empty_
     elif a_type == 1:
         # Horizontal X axe (Algorithm 2)
         draw_matrix(reverse_rows(transposed_matrix(m)))
-
-
-draw_function(f, -10, 10, 60, 60, 1)
